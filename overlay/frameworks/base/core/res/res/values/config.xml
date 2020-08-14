@@ -431,12 +431,6 @@
         <item>0:2:15</item> <!-- ID0:Fingerprint:Strong -->
     </string-array>
 
-    <!-- Turn on LiveDisplay auto mode by default -->
-    <integer name="config_defaultLiveDisplayMode">0</integer>
-
-    <!-- Should we filter any display modes which are unampped? -->
-    <bool name="config_filterDisplayModes">true</bool>
-
     <!-- Controls whether system buttons use all caps for text -->
     <bool name="config_buttonTextAllCaps">false</bool>
 
@@ -476,4 +470,10 @@
 
     <!-- Does the device support battery LED? -->
     <bool name="config_intrusiveBatteryLed">true</bool>
+
+    <!-- Default state for LiveDisplay -->
+    <bool name="config_liveDisplayAvailable">true</bool>
+
+   <!-- Use default display mode -->
+    <integer name="config_defaultLiveDisplayMode">0</integer>
 </resources>
