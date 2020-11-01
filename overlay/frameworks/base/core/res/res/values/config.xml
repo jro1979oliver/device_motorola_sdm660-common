@@ -476,4 +476,7 @@
 
    <!-- Use default display mode -->
     <integer name="config_defaultLiveDisplayMode">0</integer>
+
+    <!-- Smart Pixels -->
+    <bool name="config_enableSmartPixels">true</bool>
 </resources>
