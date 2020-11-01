@@ -440,4 +440,7 @@
 
     <!-- Does the device support battery LED? -->
     <bool name="config_intrusiveBatteryLed">true</bool>
+
+    <!-- Smart Pixels -->
+    <bool name="config_enableSmartPixels">true</bool>
 </resources>
