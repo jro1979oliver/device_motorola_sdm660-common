@@ -113,13 +113,14 @@ PRODUCT_PACKAGES += \
     hwcomposer.sdm660 \
     memtrack.sdm660 \
     libdisplayconfig \
-    libqdMetaData.system \
+    libdisplayconfig.qti \
+    libqdMetaData \
     libvulkan \
     libtinyxml
 
 PRODUCT_PACKAGES += \
-    vendor.display.config@1.9 \
-    vendor.display.config@1.9_vendor
+    vendor.display.config@2.0.vendor \
+    vendor.display.config@2.0 \
 
 # DRM
 PRODUCT_PACKAGES += \
