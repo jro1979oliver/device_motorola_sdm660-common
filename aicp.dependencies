@@ -1,0 +1,20 @@
+[
+  {
+    "repository":  "AICP/proprietary_vendor_motorola",
+    "target_path": "vendor/motorola"
+  },
+  {
+    "repository": "AICP/kernel_motorola_msm8998",
+    "target_path": "kernel/motorola/msm8998"
+  },
+  {
+    "repository": "LineageOS/android_external_bson",
+    "target_path": "external/bson",
+    "branch":      "lineage-18.1"
+  },
+  {
+    "repository": "LineageOS/android_system_qcom",
+    "target_path": "system/qcom",
+    "branch":      "lineage-18.1"
+  }
+]
