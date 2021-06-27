@@ -1,9 +1,5 @@
 [
   {
-    "repository":  "AICP/proprietary_vendor_motorola",
-    "target_path": "vendor/motorola"
-  },
-  {
     "repository": "AICP/kernel_motorola_msm8998",
     "target_path": "kernel/motorola/msm8998"
   },
