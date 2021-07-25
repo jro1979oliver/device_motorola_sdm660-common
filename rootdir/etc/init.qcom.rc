@@ -88,6 +88,9 @@ on init
     chown system system /sys/devices/soc/soc:fpc_fpc1020/proximity_state
     chmod 0660 /sys/devices/soc/soc:fpc_fpc1020/proximity_state
 
+    chown system system /sys/module/battery_saver/parameters/enabled
+    chmod 0664 /sys/module/battery_saver/parameters/enabled
+
 on fs
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
     symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
