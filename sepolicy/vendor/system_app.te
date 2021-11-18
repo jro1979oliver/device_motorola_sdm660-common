@@ -18,3 +18,6 @@ dontaudit system_app {
 allow system_app sysfs_fingerprint:dir search;
 get_prop(system_app, hwrev_prop)
 binder_call(system_app, hal_power_default)
+
+allow system_app hal_power_default:binder call;
+allow system_app proc_vmallocinfo:file { getattr open read };
