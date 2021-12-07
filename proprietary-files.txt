@@ -13,9 +13,9 @@ vendor/lib64/libadsprpc.so
 vendor/lib64/libfastcvadsp_stub.so
 vendor/lib64/libfastcvopt.so
 
-# Bluetooth (AptX) - from crosshatch - RQ1A.201205.003
-system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
-system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
+# AptX
+system/lib64/libaptX_encoder.so|107cfa22f86d1ba0048ef8e230895e2d115a3c10
+system/lib64/libaptXHD_encoder.so|7b430fa571db6691ba927f8d114c0b7fda5b6836
 
 # Audio
 vendor/lib/libacdb-fts.so
