@@ -22,8 +22,6 @@
 # definition file).
 #
 
-# Get non-open-source specific aspects
-$(call inherit-product, vendor/motorola/google/google.mk)
 $(call inherit-product, vendor/motorola/sdm660-common/sdm660-common-vendor.mk)
 
 # b/189477034: Bypass build time check on uses_libs until vendor fixes all their apps
