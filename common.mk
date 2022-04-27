@@ -23,6 +23,7 @@
 #
 
 $(call inherit-product, vendor/motorola/sdm660-common/sdm660-common-vendor.mk)
+$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
 
 # Installs gsi keys into ramdisk, to boot a GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
