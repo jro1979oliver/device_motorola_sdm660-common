@@ -16,5 +16,8 @@ persist.vendor.dpm.feature=0
 ril.subscription.types=NV,RUIM
 telephony.lteOnCdmaDevice=1
 
+#Misc
+debug.force_no_blanking=true
+
 # Netflix
 ro.netflix.bsp_rev=Q660-13149-1
