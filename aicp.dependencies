@@ -9,17 +9,14 @@
   },
   {
     "repository": "LineageOS/android_external_bson",
-    "target_path": "external/bson",
-    "branch":      "lineage-19.1"
+    "target_path": "external/bson"
   },
   {
     "repository": "LineageOS/android_system_qcom",
-    "target_path": "system/qcom",
-    "branch":      "lineage-19.1"
+    "target_path": "system/qcom"
   },
   {
     "repository": "AICP/hardware_motorola",
-    "target_path": "hardware/motorola",
-    "branch":      "s12.1"
+    "target_path": "hardware/motorola"
   }
 ]
