@@ -16,5 +16,11 @@ persist.vendor.dpm.feature=0
 ril.subscription.types=NV,RUIM
 telephony.lteOnCdmaDevice=1
 
+# Surfaceflinger Blur options
+ro.launcher.blur.appLaunch=0
+ro.surface_flinger.supports_background_blur=1
+persist.sys.sf.disable_blurs=1
+ro.sf.blurs_are_expensive=1
+
 # Netflix
 ro.netflix.bsp_rev=Q660-13149-1
