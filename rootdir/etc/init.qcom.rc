@@ -248,6 +248,24 @@ on boot
     chown bluetooth net_bt /sys/class/rfkill/rfkill0/device/extldo
     chmod 0660 /sys/class/rfkill/rfkill0/device/extldo
 
+    # Battery Health
+    chown system system /sys/class/power_supply/bms/charge_full
+    chmod 0644 /sys/class/power_supply/bms/charge_full
+    chown system system /sys/class/power_supply/bms/charge_now_raw
+    chmod 0644 /sys/class/power_supply/bms/charge_now_raw
+    chown system system /sys/class/power_supply/bms/charge_full_design
+    chmod 0644 /sys/class/power_supply/bms/charge_full_design
+    chown system system /sys/class/power_supply/bms/cycle_counts
+    chmod 0644 /sys/class/power_supply/bms/cycle_counts
+    chown system system /sys/class/power_supply/bms/cycle_count
+    chmod 0644 /sys/class/power_supply/bms/cycle_count
+    chown system system /sys/class/power_supply/bms/charge_counter
+    chmod 0644 /sys/class/power_supply/bms/charge_counter
+    chown system system /sys/class/power_supply/bms/battery_health
+    chmod 0644 /sys/class/power_supply/bms/battery_health
+    chown system system /sys/class/power_supply/bms/battery_type
+    chmod 0644 /sys/class/power_supply/bms/battery_type
+
     # This location is used by QCRIL to host UNIX domain
     # socket files used for internal IPC within QCRIL
     # modules

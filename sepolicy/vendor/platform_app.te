@@ -6,3 +6,8 @@ allow platform_app sysfs_kgsl:lnk_file read;
 allow platform_app retaildemo_prop:file { open read getattr };
 get_prop(platform_app, moto_boot_prop)
 get_prop(platform_app, camera_prop)
+
+# Battery health
+allow platform_app sysfs_battery_supply:file getattr;
+allow platform_app sysfs_battery_supply:file { read open };
+allow platform_app sysfs_battery_supply:dir search;

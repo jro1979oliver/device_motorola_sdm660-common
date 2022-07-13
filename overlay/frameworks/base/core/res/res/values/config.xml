@@ -444,4 +444,13 @@
     <!-- Enable Zram writeback feature to allow unused pages in zram be written to flash. -->
     <bool name="config_zramWriteback">true</bool>
 
+    <!-- Battery Health -->
+    <string name="config_batCurCap">/sys/class/power_supply/bms/charge_now_raw</string>
+    <string name="config_batDesCap">/sys/class/power_supply/bms/charge_full_design</string>
+    <string name="config_batHealthPercent">/sys/class/power_supply/bms/battery_health</string>
+    <string name="config_batType">/sys/class/power_supply/bms/battery_type</string>
+    <string name="config_batChargeCycle">/sys/class/power_supply/bms/cycle_count</string>
+    <integer name="config_batCurCapDivider">1000</integer>
+    <integer name="config_batDesCapDivider">1000</integer>
+    <bool name="config_supportBatteryHealth">true</bool>
 </resources>
