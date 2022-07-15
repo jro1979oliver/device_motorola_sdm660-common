@@ -11,3 +11,9 @@ get_prop(platform_app, camera_prop)
 allow platform_app sysfs_battery_supply:file getattr;
 allow platform_app sysfs_battery_supply:file { read open };
 allow platform_app sysfs_battery_supply:dir search;
+
+# Device info
+allow platform_app sysfs_device_info:file read;
+allow platform_app sysfs_device_info:lnk_file read;
+allow platform_app sysfs_kgsl:file getattr;
+allow platform_app sysfs_kgsl:file { read open };

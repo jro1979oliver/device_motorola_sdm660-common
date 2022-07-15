@@ -28,3 +28,5 @@ type sysfs_healthd, fs_type, sysfs_type, mlstrustedobject;
 
 #rfs files
 type rfs_tombstone_data_file, data_file_type, file_type;
+
+type sysfs_device_info, sysfs_type, fs_type;

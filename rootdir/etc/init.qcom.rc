@@ -266,6 +266,16 @@ on boot
     chown system system /sys/class/power_supply/bms/battery_type
     chmod 0644 /sys/class/power_supply/bms/battery_type
 
+    # Device info
+    chown system system /sys/kernel/gpu/gpu_clock
+    chmod 0664 /sys/kernel/gpu/gpu_clock
+    chown system system /sys/kernel/gpu/gpu_busy
+    chmod 0664 /sys/kernel/gpu/gpu_busy
+    chown system system /sys/class/thermal/thermal_zone0/temp
+    chmod 0664 /sys/class/thermal/thermal_zone0/temp
+    chown system system /sys/class/power_supply/battery/temp
+    chmod 0664 /sys/class/power_supply/battery/temp
+
     # This location is used by QCRIL to host UNIX domain
     # socket files used for internal IPC within QCRIL
     # modules
