@@ -119,8 +119,7 @@ PRODUCT_PACKAGES += \
     memtrack.sdm660 \
     libdisplayconfig \
     libqdMetaData.system \
-    libvulkan \
-    libtinyxml
+    libvulkan
 
 # DRM
 PRODUCT_PACKAGES += \
